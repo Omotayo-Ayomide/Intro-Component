@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%) ;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    gap: 2rem;
+}
+
+ h1 {
+    color: white;
+    margin-bottom: 1rem;
+ }
+
+ p {
+    color: white;
+ }
+
+ h4 {
+    border-radius: 0.4rem;
+    background-color:hsl(248, 32%, 49%) ;
+    width: 30vw;
+    height: 7vh;
+    text-align: center;
+    padding-top: 0.5rem;
+    color: white;
+    font-weight: 200;
+ }
+
+ b {
+    font-weight: 900;
+ }
+
+ .right-side {
+    /* background-color: green; */
+    
+ }
+
+ form {
+    background-color: white;
+    height: 53vh;
+    width: 30vw;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap:0.5rem;
+ }
+
+ input {
+    display: block;
+    /* margin: auto; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* margin-top: 1rem; */
+    width: 26vw;
+    height: 6vh;
+    padding-left: 1rem;
+ }
+
+ button {
+    display: block;
+    /* margin: auto; */
+    /* margin-top: 1rem; */
+    height: 7vh;
+    width: 26vw;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+ }
+
+ .last-paragraph {
+    font-size: 10px;
+    color: gray;
+    margin: auto;
+    width: fit-content;
+    margin-top: 0.5rem;
+ }
+
+ .terms {
+    color:hsl(0, 100%, 74%) ;
+ }
+
+ .input-container1 {
+   position: relative;
+   width: fit-content;
+   height: fit-content;
+   /* border: 2px solid black ; */
+ }
+
+ .icon-error1 {
+   width: 1rem;
+   height: 3vh;
+   position: absolute;
+   right: 0.3rem;
+   top: 0.3rem;
+   display: none;
+ }
+
+ .input-container2 {
+   position: relative;
+   width: fit-content;
+   height: fit-content;
+ }
+
+ .icon-error2 {
+   width: 1rem;
+   height: 3vh;
+   position: absolute;
+   right: 0.3rem;
+   top: 0.3rem;
+   display: none;
+ }
+
+ .input-container3 {
+   position: relative;
+   width: fit-content;
+   height: fit-content;
+ }
+
+ .icon-error3 {
+   width: 1rem;
+   height: 3vh;
+   position: absolute;
+   right: 0.3rem;
+   top: 0.3rem;
+   display: none;
+ }
+
+ .input-container4 {
+   position: relative;
+   width:fit-content;
+   height: fit-content;
+ }
+
+ .icon-error4 {
+   width: 1rem;
+   height: 3vh;
+   position: absolute;
+   right: 0.3rem;
+   top: 0.3rem;
+   display: none;
+ }
+
+ h6 {
+   text-align: right;
+   margin-top: 0.1rem;
+   color: red;
+   display: none;
+ }
+ 
+ 
+
